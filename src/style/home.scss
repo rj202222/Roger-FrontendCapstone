@@ -1,0 +1,58 @@
+.hero-section {
+  display: flex;
+  justify-content: center;
+  background-image: url(../../static/background/movieposters.jpg);
+  padding: 100px;
+  height: 200px;
+  /* paralax scrolling */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-section > .top-heading {
+  padding: 1px 20px;
+  color: #d3d3d3;
+  width: 290px;
+  border-radius: 2px;
+  text-align: center;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #161a1d;
+  border-radius: 15px;
+}
+
+/* Features section styles */
+
+.features-section {
+  height: 400px;
+  background-image: url(../../static/background/cinema-background.jpg);
+  background-size: cover;
+  background-position: center;
+  border-top: 1px solid black;
+  color: #d3d3d3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
+}
+
+.features-section > .columns-wrapper {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.features-section > .columns-wrapper > .column {
+  padding: 20px;
+  margin: 42px;
+  text-align: center;
+  border-bottom: 5px solid transparent;
+  border-radius: 10px;
+  transition: 1s;
+  font-size: 2rem;
+  background-color: #161a1d;
+}
